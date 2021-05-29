@@ -1,0 +1,7 @@
+C:\Users\Tomás\Desktop\QuarkExamen\TestQuark\TestQuark\bin\Debug\TestQuark.exe.config
+C:\Users\Tomás\Desktop\QuarkExamen\TestQuark\TestQuark\bin\Debug\TestQuark.exe
+C:\Users\Tomás\Desktop\QuarkExamen\TestQuark\TestQuark\bin\Debug\TestQuark.pdb
+C:\Users\Tomás\Desktop\QuarkExamen\TestQuark\TestQuark\obj\Debug\TestQuark.csproj.AssemblyReference.cache
+C:\Users\Tomás\Desktop\QuarkExamen\TestQuark\TestQuark\obj\Debug\TestQuark.csproj.CoreCompileInputs.cache
+C:\Users\Tomás\Desktop\QuarkExamen\TestQuark\TestQuark\obj\Debug\TestQuark.exe
+C:\Users\Tomás\Desktop\QuarkExamen\TestQuark\TestQuark\obj\Debug\TestQuark.pdb
