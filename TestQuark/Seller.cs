@@ -6,20 +6,35 @@ using System.Threading.Tasks;
 
 namespace TestQuark
 {
-    class Seller
+    public class Seller
     {
         public string name;
         public string username;
-        public int sellerCode;
-        public int[] sellerStory;
+        public Guid sellerCode;
+        public Quote[] sellerStory;
 
         public void SetSeller()
         {
-            Console.Write("Ingrese su nombre: ");
+            Console.Write("Ingrese su nombre de vendedor: ");
             name = Console.ReadLine();
             Console.Write("Ingrese su apellido: ");
             username = Console.ReadLine();
-            Console.WriteLine("Is a Seller: " + name + " " + username);
+            Console.WriteLine("Hola vendedor: " + name + " " + username);
+        }
+
+        public Quote[] Quote()
+        {
+            Quote quote = new Quote();
+            sellerStory = new Quote[20];
+            for (int i = 0; i <  sellerStory.Length ; i++)
+            {
+                sellerStory[i] = quote;
+            }            
+            return sellerStory;
+        }
+        public void GenSCode()
+        {
+            sellerCode = Guid.NewGuid();
         }
     }
 }
