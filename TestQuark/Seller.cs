@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace TestQuark
 {
-    class Seller
+    public class Seller
     {
         public string name;
         public string username;
         public int sellerCode;
-        public int[] sellerStory;
+        public Quote[] sellerStory;
 
         public void SetSeller()
         {
@@ -20,6 +20,17 @@ namespace TestQuark
             Console.Write("Ingrese su apellido: ");
             username = Console.ReadLine();
             Console.WriteLine("Is a Seller: " + name + " " + username);
+        }
+
+        public Quote[] quote()
+        {
+            Quote quote = new Quote();
+            sellerStory = new Quote[20];
+            for (int i = 0; i <  sellerStory.Length ; i++)
+            {
+                sellerStory[i] = quote;
+            }            
+            return sellerStory;
         }
     }
 }
